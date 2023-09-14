@@ -1,6 +1,6 @@
 import React from 'react'
-import App from '../App'
-import Landing_pg from './Landing_pg'; 
+import App from '../../App'
+import Landing_pg from '../Land/Landing_pg'; 
 
 
 
@@ -8,12 +8,12 @@ function Register() {
   return (
   
 	<>
-  	<div class="main">  	
+  	<div className="main">  	
 		<input type="checkbox" id="chk" aria-hidden="true"/>
 
 			<h1>this is sample for github </h1>
 
-			<div class="login">
+			<div className="login">
 				<form>
 					<label for="chk" aria-hidden="true">regsiteration</label>
 					<h1>Registration</h1>

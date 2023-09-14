@@ -2,9 +2,9 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 
 import './App.css';
-import Login from './components/Login'
-import Register from './components/Register'
-import Landing_pg from './components/Landing_pg'
+import Login from './components/Login/Login'
+import Register from './components/Register/Register'
+import Landing_pg from './components/Land/Landing_pg'
 
 
 

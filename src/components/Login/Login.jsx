@@ -1,7 +1,6 @@
 import React from 'react'
-import App from '../App'
-import Register from './Register';
-
+import App from '../../App'
+import Register from '../Register/Register';
 
 function Login() {
   return (
@@ -9,10 +8,10 @@ function Login() {
 	<>
   
 
-  	<div class="main">  	
+  	<div className="main">  	
 		<input type="checkbox" id="chk" aria-hidden="true"/>
 
-			<div class="signup">
+			<div className="signup">
 				<form>
 					<label for="chk" aria-hidden="true">Admin</label>
 					<input type="text" name="txt" placeholder="User name" required=""/>
@@ -22,7 +21,7 @@ function Login() {
 				</form>
 			</div>
 
-			<div class="login">
+			<div className="login">
 				<form>
 					<label for="chk" aria-hidden="true">Login</label>
 					<input type="email" name="email" placeholder="Email" required=""/>
