@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{padding: 4;
+  margin:-2px;
+  font-size:20px
+}
+.container{height:100vh;display:flex;justify-content:center;align-items:center;background-color:#573b8a}
+.card{width:564px;height:664px;background-color:#573b8a;box-shadow:0px 15px 30px rgba(0,0,0,0.1);border-radius:10px;overflow:hidden}
+.card .info{padding:15px;display:flex;justify-content:space-between;border-bottom:1px solid #e1dede;background-color:#e5e5e5}
+#savebutton{
+    background-color: #8e77c7;
+
+}
+.card .info button{height:30px;width:80px;border:none;color:#b4aec2;border-radius:4px;background-color:#000;cursor:pointer;text-transform:uppercase}.card .forms{padding:15px}.card .inputs{display:flex;flex-direction:column;margin-bottom:10px}
+.card .inputs span{font-size:15px
+}
+.card .inputs input{height:19px;padding:0px 10px;font-size:14px;box-shadow:none;outline:none}.card .inputs input[type="text"][readonly]{border: 2px solid rgba(0,0,0,0)}
