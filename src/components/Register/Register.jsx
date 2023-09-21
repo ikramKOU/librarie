@@ -1,6 +1,6 @@
 import React from 'react'
 import App from '../../App'
-import Landing_pg from '../Land/Landing_pg'; 
+import Landing_pg from '../landing_page/Landing_pg'; 
 
 
 

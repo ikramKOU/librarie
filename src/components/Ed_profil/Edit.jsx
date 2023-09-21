@@ -13,6 +13,7 @@ function Edit() {
 	  inputs.forEach((input) => {
 		input.toggleAttribute('readonly');
 	  });
+	  
   
 	  if (saveButtonText === 'edit') {
 		setSaveButtonText('save');
