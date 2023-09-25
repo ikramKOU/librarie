@@ -5,7 +5,7 @@ function Edit() {
 
     return (
     <>
-    <div class="container">
+        <div class="container" style={{marginTop:'2rem'}}>
 <div class="row gutters">
 <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
 <div class="card h-100">
@@ -13,7 +13,7 @@ function Edit() {
 		<div class="account-settings">
 			<div class="user-profile">
 				<div class="user-avatar">
-					<img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin"/>
+					<img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin" style={{width: "282px", borderRadius:'169px', border:'1px solid black'}}/>
 				</div>
 				<h5 class="user-name">Yuki Hayashi</h5>
 				<h6 class="user-email">yuki@Maxwell.com</h6>
