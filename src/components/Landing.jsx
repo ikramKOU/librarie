@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Edit from './edit/Edit';
 
 
 function Landing() {
 
 
+  const [showUpdate, setShowUpdate] =useState(false);
 
+ function toggleEditComponet() {
+  setShowUpdate(!showUpdate);
+alert('Pleasessaasas')
+  console.log("toggleEditComponet here.........................")
+}
 //   function readURL(input) {
 //     if (input.files && input.files[0]) {
 //         var reader = new FileReader();
 //         reader.onload = function(e) {
-//             $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+//             $('#imagUePreview').css('background-image', 'url('+e.target.result +')');
 //             $('#imagePreview').hide();
 //             $('#imagePreview').fadeIn(650);
 //         }
@@ -41,7 +48,12 @@ function Landing() {
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Profile</a></li>
-                  <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                  <li>
+                  <button onClick={toggleEditComponet} >
+                  <a class="dropdown-item"  >Edit Profile</a>
+                  </button>
+              
+                  </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
@@ -54,7 +66,7 @@ function Landing() {
               </li>
             </ul>
 
-
+{showUpdate && <Edit/>}
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown button
